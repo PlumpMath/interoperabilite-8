@@ -3,11 +3,6 @@ package interoperabilite.cour;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-
 import interoperabilite.cour.User.Gender;
 import interoperabilite.cour.User.Name;
 import interoperabilite.json.manager.JsonManager;

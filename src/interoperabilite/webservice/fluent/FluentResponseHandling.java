@@ -55,7 +55,6 @@ public class FluentResponseHandling {
         Document result = Request.Get("http://somehost/content")
                 .execute().handleResponse(new ResponseHandler<Document>() {
 
-            @Override
             public Document handleResponse(final HttpResponse response) throws IOException {
                 StatusLine statusLine = response.getStatusLine();
                 HttpEntity entity = response.getEntity();
